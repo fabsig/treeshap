@@ -30,6 +30,7 @@ Suggests:
     gbm,
     jsonlite,
     lightgbm,
+    gpboost,
     randomForest,
     ranger,
     scales,

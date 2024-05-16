@@ -19,7 +19,7 @@ can they know whether the prediction made by the model is reasonable?
 an optimized algorithm for tree ensemble models (called TreeSHAP), it
 calculates the SHAP values in polynomial (instead of exponential) time.
 Currently, `treeshap` supports models produced with `xgboost`,
-`lightgbm`, `gbm`, `ranger`, and `randomForest` packages. Support for
+`lightgbm`, `gpboost`, `gbm`, `ranger`, and `randomForest` packages. Support for
 `catboost` is available only in [`catboost`
 branch](https://github.com/ModelOriented/treeshap/tree/catboost) (see
 why [here](#catboost)).
